@@ -1,11 +1,12 @@
-# Top Down Template
-Designed as a minimal starting point for your projects in s&box.
+# MelonBomber 2
+A famous Bomberman clone made in GMod by Garry himself, this simple but gamemode was very popular back in the day, thanks to the popular Lets Play youtubers at the time
 
 ## Features
-- Top down camera
-- Simple pawn controller
+- Bombs
+- Powerups
+- Walking?
 
 ## Controls
 - Regular movement with WASD
-- Rotate the camera with right mouse button
-- Zoom the camera with mouse wheel
+- Press space to plant a bomb
+- Twiddle your thumbs ig
