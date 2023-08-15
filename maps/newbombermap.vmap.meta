@@ -1,0 +1,30 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "newbombermap",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "newbombermap",
+      "Tags": null,
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "MenuResources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "facepunch.floor_steel_diamond_plate_a#18679",
+        "pouragegaming.grass004_2k#28475",
+        "facepunch.floor_dirt_b#18644",
+        "facepunch.wooden_crate#29138"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/newbombermap.vmap"
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "Title": "MelonBomber 2",
+  "Type": "game",
+  "Org": "hollex",
+  "Ident": "melonbomber",
+  "Tags": null,
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "Resources": null,
+  "MenuResources": null,
+  "HasCode": true,
+  "CodePath": "/code/",
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Metadata": {
+    "MaxPlayers": 16,
+    "MinPlayers": 1,
+    "GameNetworkType": "Multiplayer",
+    "MapSelect": "Unrestricted",
+    "MapList": [
+      "facepunch.square"
+    ],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "GameCategory": "TechDemos",
+    "ProjectTemplate": null,
+    "TickRate": 50,
+    "CsProjName": "",
+    "LaunchConfigs": [
+      {
+        "Name": "Bomber",
+        "GameIdent": "local.melonbomber#local",
+        "MapName": "newbombermap.vmap",
+        "MaxPlayers": 1,
+        "GameSettings": {},
+        "Addons": "",
+        "PreLaunchCommand": "",
+        "PostLaunchCommand": ""
+      }
+    ],
+    "Collision": {
+      "Defaults": {
+        "solid": "Collide",
+        "trigger": "Trigger",
+        "ladder": "Ignore",
+        "water": "Trigger",
+        "gib": "Ignore"
+      },
+      "Pairs": [
+        {
+          "a": "solid",
+          "b": "solid",
+          "r": "Collide"
+        },
+        {
+          "a": "trigger",
+          "b": "playerclip",
+          "r": "Ignore"
+        },
+        {
+          "a": "trigger",
+          "b": "solid",
+          "r": "Trigger"
+        },
+        {
+          "a": "solid",
+          "b": "trigger",
+          "r": "Collide"
+        },
+        {
+          "a": "playerclip",
+          "b": "solid",
+          "r": "Collide"
+        },
+        {
+          "a": "solid",
+          "b": "ladder"
+        },
+        {
+          "a": "trigger",
+          "b": "water"
+        },
+        {
+          "a": "trigger",
+          "b": "gib",
+          "r": "Ignore"
+        },
+        {
+          "a": "solid",
+          "b": "gib",
+          "r": "Ignore"
+        }
+      ]
+    }
+  }
+}
